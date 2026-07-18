@@ -2,7 +2,7 @@ Here is a fully DC power supply with implemented Safety features, real-time MCU 
 
 <img width="837" height="486" alt="Screenshot 2026-07-17 235530" src="https://github.com/user-attachments/assets/2e4b0f45-31d2-46c4-bc5c-6e98faf4f254" />
 
-# ⚡ Adjustable Smart Bench PSU
+#  Adjustable Smart Bench PSU
 
 A modular laboratory power supply designed from scratch with
 real-time monitoring, protection systems, and scalable multi-output architecture.
@@ -83,7 +83,7 @@ External three-AC power strip
 Wireless Charger Module
 
 
-### 📟The Controlling section:-
+### The Controlling section:-
 
 1)- THE Microcontroller (MCU):                                    
 <ul>
@@ -112,15 +112,15 @@ For a short-circuit warning.
 
 8)- Circuit of continuous control for the fans and cooling.
 
-### 🌡️ Cooling system & 🔐seafty control:
+### 🌡️ Cooling system & seafty control:
 
-#### 🌡️Cooling System:
+#### Cooling System:
 <ol>
 <li>SSR Heatsink</li>
 <li>Two or three Fans</li>
 </ol>
 
-#### 🔐 safety control:
+#### safety control:
 <ol>
 <li><strong> Main fuse after the power Adapter </strong></li>
 <li>May be added a fuse to every port</li>
