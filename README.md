@@ -87,8 +87,6 @@ Wireless Charger Module
 
 1)- THE Microcontroller (MCU):                                    
 <ul>
-<li>Air001 MCU Cortex M0 core 32Kflash TSSOP20</li>                             
-or                                                 
 <li> ESP 32 (in case of making the final version)</li>
 or 
 <li>just any MCU (unless it fits the main parameters of the project)</li>
