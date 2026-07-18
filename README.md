@@ -120,6 +120,8 @@ For a short-circuit warning.
 <li>Two or three Fans</li>
 </ol>
 
+And right here, I made many ventilation holes for the fans, like what is there in the upper case of the usb hub and the PSU too. Additionally, two ventilation holes in the back of the PSU.
+
 #### safety control:
 <ol>
 <li><strong> Main fuse after the power Adapter </strong></li>
