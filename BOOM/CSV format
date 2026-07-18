@@ -1,0 +1,31 @@
+Category,Component,Quantity,Unit Cost (USD),Total Cost (USD),Notes
+Power Stage,XL4016 DC/DC Buck Converter,4,17.5,70.0,Programmable outputs
+Power Stage,XL4016 with Display,1,7.0,7.0,Standalone adjustable supply
+Controller,ESP32-S3 DevKitC-1,1,11.0,11.0,Main controller
+Power Input,24V 10A Power Adapter,1,14.0,14.0,Main PSU input
+Protection,Fuses + Fuse Holders + Switches,1,4.4,4.4,Protection hardware
+Protection,SMBJ26A TVS Diodes,3,0.5,1.5,Input surge protection
+Passive Components,Capacitor + Resistor + Buzzer Kits,1,35.7,35.7,Assortment kits
+User Interface,Rotary Encoders + Knobs,1,3.6,3.6,Voltage/Current adjustment
+Accessories,Jumper Wires + Crocodile Clips + Wire Stripper + Connectors + Ferrules + Wires + Ring/Fork Terminals,1,25.6,25.6,Wiring accessories
+Assembly,Heat Shrink Kit,1,3.0,3.0,Cable insulation
+Thermal,Heat Transfer Paste,1,5.7,5.7,Heat sink compound
+Protection,Zener Diode Kit + Other Diodes,1,4.3,4.3,General protection
+Switching,4-Channel Relay Module,1,2.6,2.6,Output control
+Power Supplies,LM2596 Buck Converter,3,0.9,2.7,Auxiliary 5V supplies
+Power Supplies,12V 5A Power Adapter,1,6.0,6.0,USB Hub supply
+Regulation,AMS1117-3.3V Regulator,1,0.06,0.06,3.3V supply
+Wireless,Wireless Power Supply + Receiver Modules,1,6.9,6.9,Wireless power experiment
+Sensing,ACS712 Current Sensor,5,2.0,10.0,Current monitoring
+Connectivity,USB Connectors + Plastic Covers,1,2.0,2.0,USB Hub
+Connectivity,ESP USB Cable,1,1.0,1.0,Programming cable
+Sensing,NTC Thermistor,1,0.8,0.8,Temperature monitoring
+Cooling,Fans + Fan Grills,1,7.2,7.2,Cooling system
+Cooling,Heat Sinks,1,2.9,2.9,Power transistor cooling
+Semiconductors,Power Transistors,1,4.0,4.0,IRLZ44N, IRF4905, etc.
+Development,Large Breadboard,1,7.0,7.0,Prototyping
+Display,ESP TFT Touch Screen Display,1,18.0,18.0,Main HMI
+Power Input,External AC Power Socket,1,8.0,8.0,IEC connector
+Lighting,White LED Strip,1,10.9,10.9,Internal illumination
+,,,
+,,Total,,212.00
