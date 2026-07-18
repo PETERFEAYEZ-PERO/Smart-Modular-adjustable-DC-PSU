@@ -156,9 +156,34 @@ https://lapse.hackclub.com/timelapse/yevhhOZqur6d
 https://lapse.hackclub.com/timelapse/zA62v7QnH9z3
 <img width="638" height="222" alt="image" src="https://github.com/user-attachments/assets/5ef3c3b3-4f53-4ea4-94c5-7ee3f11e90af" />
 
+
 **Total time spent: 6 hours and a quarter of an hour**
 
-**The total time working on that project till now is: 50 hours**
+# June 18: re-CAD the whole project and coding 
+I found that the whole project enclosure case is not that perfect and is missing a lot of things, even the ports of the outputs and the TFT, so I decided to make another one in the shape of a house, for the sake of making a workbench power supply. Additionally, I made it in a modular way as it can be assembled or separated in onyl one minute and for ht esake the whole project i was inspired by the way framework making thier products so why i amn't adopting this technology? 
+
+<img width="718" height="527" alt="Screenshot 2026-07-17 211532" src="https://github.com/user-attachments/assets/346b3510-26db-4c90-b5a1-05e8619970b4" />
+<img width="767" height="567" alt="Screenshot 2026-07-17 235737" src="https://github.com/user-attachments/assets/7e49a6be-a04e-405b-a9e1-868e5d626dfd" />
+<img width="828" height="547" alt="Screenshot 2026-07-17 235617" src="https://github.com/user-attachments/assets/13cf2852-aae8-4fb2-b5d1-b708183fc0a4" />
+<img width="891" height="552" alt="Screenshot 2026-07-17 235543" src="https://github.com/user-attachments/assets/1072cd89-c4c0-41a0-abc5-c2d20214e79e" />
+<img width="652" height="522" alt="Screenshot 2026-07-17 233832" src="https://github.com/user-attachments/assets/91c59673-2fb0-41ba-aa18-5b7ee846ad78" />
+<img width="781" height="525" alt="Screenshot 2026-07-17 233730" src="https://github.com/user-attachments/assets/97a38e6e-c96a-46c0-89d6-c7bbc7398cc0" />
+<img width="688" height="463" alt="Screenshot 2026-07-17 233712" src="https://github.com/user-attachments/assets/9e7b15cf-1c06-4fbb-a540-1666e8b95585" />
+<img width="715" height="568" alt="Screenshot 2026-07-17 233543" src="https://github.com/user-attachments/assets/e875298c-0d59-48aa-aabf-8139c87a331a" />
+<img width="758" height="456" alt="Screenshot 2026-07-17 233530" src="https://github.com/user-attachments/assets/c77402b0-656e-407a-b446-96756765730d" />
+<img width="595" height="538" alt="Screenshot 2026-07-17 233416" src="https://github.com/user-attachments/assets/ce805277-19e0-4a68-92b5-c3e1c8d74198" />
+<img width="718" height="527" alt="Screenshot 2026-07-17 211532" src="https://github.com/user-attachments/assets/79b4dc4a-7d48-446f-b39a-001c592c44b7" />
+<img width="837" height="486" a<img width="808" height="476" alt="Screenshot 2026-07-17 235500" src="https://github.com/user-attachments/assets/43b36a9a-25da-437b-8b4b-6891580f98ba" />
+<img width="798" height="517" alt="Screenshot 2026-07-17 235417" src="https://github.com/user-attachments/assets/7eb7d74b-8329-4c24-aebf-712693843640" />
+<img width="467" height="392" alt="Screenshot 2026-07-17 233907" src="https://github.com/user-attachments/assets/cd342893-6272-4cda-91f9-a66fc4a4cf77" />
+<img width="605" height="560" alt="Screenshot 2026-07-17 233849" src="https://github.com/user-attachments/assets/f2d58ac0-25e2-4d72-85cf-b18441cf2143" />
+lt="Screenshot 2026-07-17 235530" src="https://github.com/user-attachments/assets/b111d489-329a-47e2-9a9c-e2131ac42f36" />
+addtionally i wrote the full code, and mistakenly I found myself already stopped all of the extensions in vs code includeing WAKA time so the whole code of 700 lines and a bunch of other crazy comments I wrote, counted only as one hour 
+as shown here in the repo the python source code also https://github.com/PETERFEAYEZ-PERO/Smart-Modular-adjustable-DC-PSU/blob/main/PSU-code.py 
+
+
+
+**The total time working on that project till now is: 52 hours**
 
 
 
