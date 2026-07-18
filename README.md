@@ -1,14 +1,11 @@
 Here is a fully DC power supply with implemented Safety features, real-time MCU control, Voltage & Current adjustment, a cooling system, a wireless charger, and an LCD Display for output voltage.
-This Project is Part of -Making My Lab- series.
 
+<img width="837" height="486" alt="Screenshot 2026-07-17 235530" src="https://github.com/user-attachments/assets/2e4b0f45-31d2-46c4-bc5c-6e98faf4f254" />
 
 # ⚡ Adjustable Smart Bench PSU
 
 A modular laboratory power supply designed from scratch with
 real-time monitoring, protection systems, and scalable multi-output architecture.
-
-Part of the "Building My Lab From Zero" series.
-
 
 # Contents:
 
