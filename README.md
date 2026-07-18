@@ -67,7 +67,7 @@ The customization and the flexibility are also important points to take into con
 
 
 ## List of materials and cost                                                                        
-### 🔌The Power section:
+### The Power section:
 #### DC section:-
 1) Power Adaptor AC to DC 24V and 10A
 2) Power adaptor AC to DC 12V and 5A                                                              
