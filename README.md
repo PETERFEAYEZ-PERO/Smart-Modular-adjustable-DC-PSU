@@ -1,4 +1,4 @@
-Here is a fully DC power supply with implemented Safety features, real-time MCU control, Voltage & Current adjustment, a cooling system, a wireless charger, and an LCD Display for output voltage.
+Here is a fully DC power supply with implemented Safety features, real-time MCU control, Voltage & Current adjustment, a cooling system, a wireless charger, and an TFT Display for output voltage.
 
 <img width="837" height="486" alt="Screenshot 2026-07-17 235530" src="https://github.com/user-attachments/assets/2e4b0f45-31d2-46c4-bc5c-6e98faf4f254" />
 
