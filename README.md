@@ -60,10 +60,15 @@ Additionally, you don't have to make the full project; there are versions of thi
 
 
 ## Why DIY, not buy a new, ready one??                                                             
-May some people disagree with my point of view as a maker, and someone aspires to become a mechatronics engineer like me. However, the main purpose for any project u will ever make is to *learn new kinda of stuff!!*
+Some people may disagree with my point of view as a maker, and someone aspires to become a mechatronics engineer like me. However, the main purpose for any project u will ever make is to *learn new kinda of stuff!!*
 
 Is that all?    *For sure no!*
 The customization and the flexibility are also important points to take into consideration with respect to the needs and price.
+
+## The schematics
+<img width="835" height="572" alt="Screenshot 2026-07-18 052406" src="https://github.com/user-attachments/assets/aba273a9-39a5-4b09-9547-871f9d86ec78" />
+<img width="887" height="600" alt="Screenshot 2026-07-18 040531" src="https://github.com/user-attachments/assets/9bf1b906-2147-4382-b186-96d227cc180f" />
+<img width="861" height="601" alt="Screenshot 2026-07-18 040436" src="https://github.com/user-attachments/assets/8e25037c-ef4e-4de6-99d1-1bfededd7796" />
 
 
 ## List of materials and cost                                                                        
