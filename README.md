@@ -141,7 +141,3 @@ And right here, I made many ventilation holes for the fans, like what is there i
 
 I made this using Draw.io.
 
-
-
-
-Upcoming progress:
