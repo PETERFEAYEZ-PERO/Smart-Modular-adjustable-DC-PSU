@@ -21,7 +21,7 @@ real-time monitoring, protection systems, and scalable multi-output architecture
 10- Safety features and precautions                                                               
 11- Upcoming Progress                                                               
 12- References                                                               
-13- Acknowledgments                                                               
+13- ###<strong>Acknowledgments, refreneces, and AI usage </strong>                                                               
 14- Contact                                                               
 15- License                                                               
 
