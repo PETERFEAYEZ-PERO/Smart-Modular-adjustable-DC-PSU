@@ -248,6 +248,25 @@ The idea is overall based on modularity, so I decided to make the enclosure of s
 <img width="657" height="462" alt="image" src="https://github.com/user-attachments/assets/76bc2e99-1f63-4121-863d-7f37fdd22e3f" />
 <img width="663" height="471" alt="image" src="https://github.com/user-attachments/assets/7747220f-7fa9-407d-b460-d52bbd3316c3" />
 
+### The assembling way:
+<img width="595" height="538" alt="Screenshot 2026-07-17 233416" src="https://github.com/user-attachments/assets/732e45ff-3da2-44c9-9636-ba01953458de" />
+
+THEN
+
+
+<img width="758" height="456" alt="Screenshot 2026-07-17 233530" src="https://github.com/user-attachments/assets/89bd60e4-1c1e-4ceb-a738-76440fbc2a69" />
+<img width="715" height="568" alt="Screenshot 2026-07-17 233543" src="https://github.com/user-attachments/assets/31adbab4-6c56-4cdd-b748-9b0f12f9f270" />
+
+THEN
+
+
+<img width="688" height="463" alt="Screenshot 2026-07-17 233712" src="https://github.com/user-attachments/assets/2fc8a478-e006-4094-acdc-41e7b018d324" />
+
+Then, the final assembly:
+
+<img width="837" height="486" alt="Screenshot 2026-07-17 235530" src="https://github.com/user-attachments/assets/0673b08c-73f7-45fa-9fb9-3d404689a0e1" />
+<img width="828" height="520" alt="Screenshot 2026-07-17 235537" src="https://github.com/user-attachments/assets/49788bdd-d3ee-4e11-b425-caa2072e6812" />
+
 
 For assembling the 3D case, I am gonna use a silicone paste. Additionally, the RGB light will be rounded and immersed in the edges of the upper and bottom enclosures. 
 And for the outputs of the PSU, I will be using 4 mm Safety Banana Binding Posts and GX16-2
