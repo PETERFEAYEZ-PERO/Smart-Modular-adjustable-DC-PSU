@@ -1,4 +1,4 @@
-Here is a fully DC power supply with implemented Safety features, real-time MCU control, Voltage & Current adjustment, a cooling system, a wireless charger, and an TFT Display for output voltage.
+Here is a fully DC power supply with implemented Safety features, real-time MCU control, Voltage & Current adjustment, a cooling system, a wireless charger, and a TFT Display for output voltage.
 
 <img width="837" height="486" alt="Screenshot 2026-07-17 235530" src="https://github.com/user-attachments/assets/2e4b0f45-31d2-46c4-bc5c-6e98faf4f254" />
 
@@ -125,7 +125,7 @@ For a short-circuit warning.
 <li>Two or three Fans</li>
 </ol>
 
-And right here, I made many ventilation holes for the fans, like what is there in the upper case of the usb hub and the PSU too. Additionally, two ventilation holes in the back of the PSU.
+And right here, I made many ventilation holes for the fans, like what is there in the upper case of the USB hub and the PSU too. Additionally, two ventilation holes in the back of the PSU.
 
 #### safety control:
 <ol>
@@ -192,9 +192,64 @@ The main idea of the PSU is adjustment for the outputs, so how will this work us
 <img width="533" height="372" alt="image" src="https://github.com/user-attachments/assets/8396396f-c6fd-4b25-a894-cb54741efdfd" />
 
 The solution is to remove the Timer potentiometer, with a varying DC source of reference 1.25v. However, for the NPN injection transistor or MOSFET, it wouldn't go well.
+Thus, after a long search and verification, including the use of Claude, I found that the trimmers can be replaced with a DC source at 1.25V.
+So, I used an RC decoupled filter and PWM from the ESP pin; the PWM was filtered to be pure controlled DC.
+
+### Encoders:
+<img width="142" height="103" alt="image" src="https://github.com/user-attachments/assets/a07bd6c9-ac47-425b-8505-a62effc022a6" />
+And this encoder circuit is mainly for adjustment, where the up and down represent decreasing and increasing the voltage or the current at each port.
+Then we need 6 encoders overall.
+
+### Heat sensor and Cooling system:
+Here it is, preferable to use an NTC thermistor near the XL4016 modules, and here is the circuit
+<img width="137" height="122" alt="image" src="https://github.com/user-attachments/assets/aaeba7f8-1080-425c-90e3-ac266865a658" />
+
+And for the coolling i made two already open fans, and I added a switch just in case I need to shut them off.
+<img width="146" height="178" alt="image" src="https://github.com/user-attachments/assets/972912eb-fe76-40d6-9469-24159e2e584a" />
+which will be implemented in the back of the PSU.
+<img width="623" height="572" alt="image" src="https://github.com/user-attachments/assets/9b52da8e-7949-40ea-b04e-8a94c65f49ec" />
+
+and one other fan that is working in continuous control with real time montiroing form the ESP directly proportional to the heat in a fully optimal range.
+<img width="291" height="135" alt="image" src="https://github.com/user-attachments/assets/a69c2739-4e96-4dcc-a21d-5dd5f3775e46" />
+which will be implemented in the upper enclosure of the PSU
+<img width="811" height="527" alt="image" src="https://github.com/user-attachments/assets/77b177e9-826b-4cab-b7ca-a21e5c3e0f1a" />
+
+### THE ADS module 1115:
+Working via I2C
+<img width="373" height="103" alt="image" src="https://github.com/user-attachments/assets/bb0d86e8-3087-4d66-ae1a-c51e6420ae06" />
+
+### The power source for the control circuit:
+where we got 5v from a LM259 buck converter, aligned with another external power adapter of 12v and 3.3v, also using an LDO voltage regulator.
+<img width="387" height="118" alt="image" src="https://github.com/user-attachments/assets/201b695a-bc10-4bd7-897f-0ffe4aa032f5" />
+
+### The reverse polarity circuit and buzzers:
+<img width="663" height="177" alt="image" src="https://github.com/user-attachments/assets/3b5a7ccf-1e43-4184-819a-3ce0ad9eb19b" />
+
+The full control circuit, except for the ESP:
+<img width="848" height="587" alt="image" src="https://github.com/user-attachments/assets/a649070d-147c-4930-b751-79853f33e734" />
+
+## The enclosure and 3d printing:
+The idea is overall based on modularity, so I decided to make the enclosure of separate parts just in case I need to change a specific part.
+
+### The Upper Part:
+<img width="607" height="445" alt="image" src="https://github.com/user-attachments/assets/5b7beda5-3fa9-4c1b-bb9e-97d4a545bab3" />
+<img width="463" height="363" alt="image" src="https://github.com/user-attachments/assets/e9e7ef8a-d159-40a0-86a2-183d6d01bc8b" />
+
+### the Bottom part:
+<img width="835" height="453" alt="image" src="https://github.com/user-attachments/assets/d72fac40-828a-43f2-8ab4-c80aa3cddcc3" />
+<img width="757" height="547" alt="image" src="https://github.com/user-attachments/assets/104870f9-0399-480e-99b2-c49533d7496f" />
+<img width="708" height="355" alt="image" src="https://github.com/user-attachments/assets/6df40b53-aadd-4622-91ae-7a571cf21075" />
+
+### The back part:
+<img width="503" height="447" alt="image" src="https://github.com/user-attachments/assets/db4dbb62-6e10-4c07-aadc-bf047938dffb" />
+<img width="440" height="458" alt="image" src="https://github.com/user-attachments/assets/c78cb130-fe61-4945-9178-2955f8b99018" />
+
+### The front part:
+<img width="657" height="462" alt="image" src="https://github.com/user-attachments/assets/76bc2e99-1f63-4121-863d-7f37fdd22e3f" />
+<img width="663" height="471" alt="image" src="https://github.com/user-attachments/assets/7747220f-7fa9-407d-b460-d52bbd3316c3" />
 
 
-For the assembly of the 3d case, I am gonna use a silicon paste. Additionally, the RGB light will be rounded and immersed in the edges of the upper and bottom enclosures. 
+For assembling the 3D case, I am gonna use a silicone paste. Additionally, the RGB light will be rounded and immersed in the edges of the upper and bottom enclosures. 
 And for the outputs of the PSU, I will be using 4 mm Safety Banana Binding Posts and GX16-2
 
 #Acknowledgments and AI usage:
