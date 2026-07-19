@@ -141,6 +141,62 @@ And right here, I made many ventilation holes for the fans, like what is there i
 
 I made this using Draw.io.
 
+## The automation and building Instructions:
+
+### The PSU main Power input and protection
+Here are all the instructions u are gonna need:
+First of all, for the main power source, I will be using a ready-made Power Adapter of 24 V and 10 A (u could for sure get a better one till 32V as maximum and maybe till 12 amperes. However u will need proper cooling)
+Secondly, the Protection circuit, where the (by the same order):
+<ol>
+  <li>Main Fuse <em>-it is better to use an 11 or 12 amp slow-blow fuse if u are gonna make the system with 10 amps-</em></li>
+  <li>A switch -make sure u choose a switch typically to the system power input, or simply choose this switch which cable to shut off, even 220 V and 10 amps-
+    <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/06de0c10-9813-49b4-9231-df95a1fb5b4d" />
+  <li>Transient protection aligned with decoupling capacitors, and yes, I am talking about surge transient protection, not just any overvoltage so make sure u are using transient diode </li>
+  <li>Then here is our main system power input of 24v and 10 amps</li>
+  <img width="676" height="206" alt="image" src="https://github.com/user-attachments/assets/41bb8ba1-e934-49a1-b6a2-5361a8978027" />
+
+  <li>Finally, i added a relay as a way to shut down the whole system, ensuring safety. In case anything happens.
+  I am here controlling the relay with something like an AND gate with an independent switch, and an ESP signal too. We will use the ESP for the relay in case of reverse polarity, overcurrent, overvoltage, or any severe cases. And as far as we go and make an app, we will be able to use WIFI to control the whole system</li>
+  <img width="386" height="155" alt="image" src="https://github.com/user-attachments/assets/733cdbec-52b1-4068-b787-aa47bb2d6928" />
+</ol>
+
+
+### The Power distribution and Outputs:
+For the adjustment outputs, I will be using XL4016 for each adjustable output, and I will make them in parallel, for sure so they will all take the same voltage, and the current will be distributed.
+<img width="372" height="547" alt="image" src="https://github.com/user-attachments/assets/16cbd79d-1184-411b-87ff-e31606238a19" />
+And as seen above in the image, I also have one extra constant output taking from the main rail. In conclusion, we have three adjustable outputs and one fixed output.
+
+Additionally, I will be using Relay for each port to manually close and open, or using WIFI.
+<img width="230" height="301" alt="image" src="https://github.com/user-attachments/assets/39ac571b-a1c8-4a74-b83a-2a2ddfc4dc05" />
+
+### The power sensing for each Output:
+Think of this as a way for self-parameter monitoring, where the system flows through each port and the total voltage-current consumption.
+
+<strong>For this project, mainly I WILL USE ADC THE MOST, SO I DECIDED TO USE READY ADS MODULE 1115. Just as an alternative to the noisy ESP ADC</strong>
+
+#### For the Current sensing for each port for the XL4016 using ACS712:
+<img width="247" height="348" alt="image" src="https://github.com/user-attachments/assets/90fc8f3a-6dc4-4e30-b1d8-4d238ef5328a" />
+
+Additionally, I will be using a capacitor for each sensor to filter the noise as much as possible. You could simply use this equation to calculate your values. Since the ACS712 also uses a 5V signal, which isn't proper for the ESP PINS, I made all of the signal outputs with 3.3v using voltage dividers.
+<img width="332" height="167" alt="image" src="https://github.com/user-attachments/assets/077c4e40-7433-4ae5-a165-69cf16e313e7" />
+
+
+#### However, for the voltage sensing, I will be using a normal voltage divider connected to the ADS module 1115, like that:
+<img width="240" height="456" alt="image" src="https://github.com/user-attachments/assets/a3f44f23-ff8c-4276-acd0-21e0928e795b" />
+
+### Then, we finally finished our Power circuit:
+<img width="847" height="577" alt="image" src="https://github.com/user-attachments/assets/26f748f8-d2a4-42f8-969d-e0de12aa6edf" />
+
+## The Control circuit:
+The main idea of the PSU is adjustment for the outputs, so how will this work using those XL4016 modules?
+<img width="533" height="372" alt="image" src="https://github.com/user-attachments/assets/8396396f-c6fd-4b25-a894-cb54741efdfd" />
+
+The solution is to remove the Timer potentiometer, with a varying DC source of reference 1.25v. However, for the NPN injection transistor or MOSFET, it wouldn't go well.
+
+
+For the assembly of the 3d case, I am gonna use a silicon paste. Additionally, the RGB light will be rounded and immersed in the edges of the upper and bottom enclosures. 
+And for the outputs of the PSU, I will be using 4 mm Safety Banana Binding Posts and GX16-2
+
 #Acknowledgments and AI usage:
 <ul>
 <li>My friend SID Batra: the first one who reviewed my early schematics.</li>
