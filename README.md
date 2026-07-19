@@ -141,3 +141,27 @@ And right here, I made many ventilation holes for the fans, like what is there i
 
 I made this using Draw.io.
 
+#Acknowledgments and AI usage:
+<ul>
+<li>My friend SID Batra: the first one who reviewed my early schematics.</li>
+
+<li>those incredible references:</li>
+<ol>
+  <li> Practical electronics for inventors</li>
+  <li>fundamentals of electronic circuits, especially for the FB circuits</li>
+</ol>
+
+<li>and Claude AI for the following:
+<ol>
+<li>Explaining the PID with Simple coding.</li>
+<li>Major help in the PID coding part</li>
+<li>and most importantly, the CC and CV controlling. I spent a week entirely trying to figure out the way of controlling the XL4016, and yeah, after long frustration through OP-AMPS, FB circuits, and the TL431 architecture. I just found it is better to replace the trimmers with a varying DC voltage source at the wiper</li>
+</li>
+</ol>
+</ul>
+
+###FUN FACT: also, the trimer potentiometer <strong>can't</strong> be replaced by the following for controlling:
+<ul>
+<li>NPN injection transistor, as it is non-linear and is affected by temperature  change</li>
+  <li>same as the same as MOSFET </li>
+</ul>
